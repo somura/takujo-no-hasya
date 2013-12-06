@@ -1,0 +1,20 @@
+doctype html
+html lang="en"
+  head
+    meta charset="UTF-8"
+    link rel="shortcut icon" type="image/png" href="/image/ton.jpg"
+    title 卓上の覇者
+    == include_gon
+    link rel='stylesheet' href='application.css' type='text/css'
+    script src='http://code.jquery.com/jquery-2.0.3.min.js' type='text/javascript'
+    script src='javascripts/main.js' type='text/javascript'
+    script src="javascripts/maximage.js" type="text/javascript"
+    body
+      img.bgmaximage src="/image/background.png" alt=""
+      #maincontent
+      header
+        hr
+      container
+        == yield
+        hr
+      footer
